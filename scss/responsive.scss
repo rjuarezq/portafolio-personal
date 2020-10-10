@@ -1,0 +1,70 @@
+
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* tablets */
+@media (max-width: 991px) {
+
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    #main .contents h1{
+        font-size: 28px;
+    }
+    .item-boxes h4{
+        font-size: 18px;
+    }
+    #skills .show-box img{
+        display: none;
+    }
+    .awards.pricing-details ul li{
+        font-size: 12px;
+    }
+
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+    .section-header .section-title{
+        font-size: 20px;
+    }
+    #main .contents{
+        padding: 100px 0 80px;
+    }
+    #main .contents h1{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #skills .show-box img{
+        display: none;
+    }
+    #skills .box-item .text h4{
+        font-size: 14px;
+    }
+    .controls{
+        margin: 0px;
+        .btn{
+            font-size: 13px;
+            padding: 7px 7px;
+        }
+    }
+    .awards{
+        margin-bottom: 15px;
+    }
+    .contact-us{
+        margin-bottom: 30px;
+    }
+    .contact-us h3{
+        font-size: 28px;
+    }
+    .footer-links li a{
+        margin-right: 10px;
+    }
+    .copyright{
+        float: left;
+    }
+
+}
